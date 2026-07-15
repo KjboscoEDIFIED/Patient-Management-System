@@ -3,6 +3,13 @@
 A full-stack healthcare management application for managing patient records and
 improving healthcare information management through a centralized system.
 
+
+## Screenshots
+![alt text](screenshots/dashboardPage.PNG)
+![alt text](screenshots/loginPage.PNG)
+![alt text](screenshots/PatientsPage.PNG)
+![alt text](screenshots/RegisterPage.PNG)
+
 ## Features
 - User authentication (register / login, JWT-based, staff & admin roles)
 - Patient registration
@@ -111,5 +118,5 @@ The app runs on `http://localhost:5173`. Open it in your browser.
 All `/api/patients/*` routes require an `Authorization: Bearer <token>` header.
 
 ## Notes
-- Passwords are hashed with bcrypt before being stored.
+- Passwords are hashed with bcrypt before being stored. 
 
